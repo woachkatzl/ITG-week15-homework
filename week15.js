@@ -113,7 +113,7 @@ const sentencesWords = sentencesSplit
 
 // С помощью цикла вывела все слова в консоль 
 for (let word of sentencesWords) {
-    console.log(word);
+    //console.log(word);
 }
 
 // Решение 2:
@@ -162,6 +162,12 @@ for (let item of list) {
 //Задание 14
 // Преобразуйте массив каждый элемент массива words в верхний регистр
 console.log("Задание 14");
+
+const words14 = ['Hello', 'world', '!'];
+for (let i = 0; i < words14.length; i++) {
+    words14[i] = words14[i].toUpperCase();
+}
+console.log(words14);
 
 //Задание 15
 // Подсчитайте количество гласных букв в строке
@@ -265,7 +271,11 @@ do {
 // Запросить у пользователя числа, пока сумма введенных чисел не станет больше 100
 console.log("Задание 22");
 
-
+let enteredSum = 0;
+/* while (enteredSum <= 100) {
+    const newNumber = Number(prompt("Введите число"));
+    enteredSum += newNumber;
+} */
 
 //Задание 23
 // Напишите функцию, которая изменит фоновый цвет всех элементов <h4> на странице на синий цвет
